@@ -1,0 +1,30 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.3.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.1
+2 info using node@v22.3.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/minahpark/Desktop/ozcoding_practice/typescript/.npmrc
+5 silly config load:file:/Users/minahpark/.npmrc
+6 silly config load:file:/Users/minahpark/.npm-global/etc/npmrc
+7 verbose title npm i typescript
+8 verbose argv "i" "--save-dev" "typescript"
+9 verbose logfile logs-max:10 dir:/Users/minahpark/Desktop/ozcoding_practice/typescript/npm-cache/_logs/2024-06-26T04_13_47_881Z-
+10 verbose logfile /Users/minahpark/Desktop/ozcoding_practice/typescript/npm-cache/_logs/2024-06-26T04_13_47_881Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest typescript@*
+15 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 226ms
+17 http fetch GET 200 https://registry.npmjs.org/typescript 506ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+19 silly placeDep ROOT typescript@5.5.2 OK for:  want: *
+20 silly reify moves {}
+21 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.5.2.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.5.2.tgz 318ms (cache miss)
+23 silly ADD node_modules/typescript
+24 verbose cwd /Users/minahpark/Desktop/ozcoding_practice/typescript
+25 verbose os Darwin 23.3.0
+26 verbose node v22.3.0
+27 verbose npm  v10.8.1
+28 verbose exit 0
+29 info ok
